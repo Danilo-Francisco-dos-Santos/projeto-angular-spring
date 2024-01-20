@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { MatTableModule } from '@angular/material/table';
+import { AppMaterialModule } from '../../compartilhado/app-material/app-material.module';
 import { Curso } from '../model/curso';
 
 @Component({
   selector: 'app-cursos',
   standalone: true,
-  imports: [MatTableModule],
+  imports: [AppMaterialModule],
   templateUrl: './cursos.component.html',
   styleUrl: './cursos.component.css'
 })
